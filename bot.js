@@ -98,7 +98,7 @@ console.log("====================================")
 
 
 client.on('ready',async () => {
-  var ch "570173334273130496";
+  var ch "570176094741987338";
 if(ch.type === "voice");
 ch.join();
  });
