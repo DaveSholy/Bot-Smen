@@ -97,6 +97,11 @@ console.log("====================================")
 });
 
 
+client.on('ready',async () => {
+  var ch = "570173334273130496";
+if(ch.type === "voice");
+ch.join();
+ });
 
 
 client.login(process.env.BOT_TOKEN);
