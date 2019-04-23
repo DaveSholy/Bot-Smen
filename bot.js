@@ -34,7 +34,7 @@ client.on("message", message => {
 
 client.on('message', message => {
     if(!message.channel.guild) return;
-    if(message.content.startsWith('^ping')) { // 
+    if(message.content.startsWith('ping')) { // 
         if (message.author.bot) return;
         if(!message.channel.guild) return;
         var Bping =`${Math.round(client.ping)}` // Mdax77x CopyRight | Toxic Codes
@@ -49,7 +49,7 @@ client.on('message', message => {
 
 
 client.on('message', message => {
-    if (message.content === ('!!server')) {
+    if (message.content === ('server')) {
     message.channel.send({
         embed: new Discord.RichEmbed()
         .setAuthor(client.user.username,client.user.avatarURL)
@@ -95,3 +95,13 @@ console.log("2")
 console.log("1")
 console.log("====================================")
 });
+
+
+client.on('ready',async () => {
+  var ch "570173334273130496";
+if(ch.type === "voice");
+ch.join();
+ });
+
+client.login(process.env.BOT_TOKEN);
+
